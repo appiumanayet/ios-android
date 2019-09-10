@@ -8,7 +8,7 @@ public class AndroidSmokeTest extends BaseTest
 {
 
     @Test
-    public void logIn() throws InterruptedException {
+    public void logInAndroid() throws InterruptedException {
         driver.findElement(By.id("username")).sendKeys("anayet@gmail.com");
         driver.findElement(By.id("password")).sendKeys("anayet123");
         driver.findElement(By.id("login")). click();
